@@ -7,7 +7,7 @@ Eclipse-Java ile geliştirilmiştir. Arayüz JavaFX ile geliştirilmiştir. MVC 
 Kütüphane Asistanı içinden Görüntüler:
 1)Üye girişi 
 (foto)
-2)Hemen Üye Ol(personel-normal)
+\n2)Hemen Üye Ol(personel-normal)
 foto
 Projenin Diğer Menüleri 
 1)Anasayfa 
