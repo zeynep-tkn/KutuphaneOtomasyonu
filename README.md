@@ -7,7 +7,7 @@ Eclipse-Java ile geliştirilmiştir. Arayüz JavaFX ile geliştirilmiştir. MVC 
 
 Kütüphane Asistanı içinden Görüntüler:
 1)Üye girişi 
-![giris](https://github.com/zeynep-tkn/KutuphaneOtomasyonu/assets/115029576/9c1d1b4d-013e-4475-8b3b-2fcc5370c5c1)
+foto
 
 
 2)Hemen Üye Ol(personel-normal)
