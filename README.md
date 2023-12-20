@@ -7,7 +7,8 @@ Eclipse-Java ile geliştirilmiştir. Arayüz JavaFX ile geliştirilmiştir. MVC 
 
 Kütüphane Asistanı içinden Görüntüler:
 1)Üye girişi 
-![Üye girişi ](images/giriş yap.png)
+<img src="images/anasayfa.png" alt="Anasayfa" width="300" height="200">
+
 
 
 2)Hemen Üye Ol(personel-normal)
