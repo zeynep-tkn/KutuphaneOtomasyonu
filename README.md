@@ -12,7 +12,7 @@ Kütüphane Otomasyonu İçinden Görüntüler:
 
 
 
-2)Hemen Üye Ol(personel-normal)
+2)Üye Ol(personel-normal)
 
 <img src="images/uyeol.png" alt="Anasayfa" width="500" height="400">
 
@@ -28,13 +28,13 @@ Projenin Diğer Menüleri
 
 3)Kitap Ödünç Al 
 
-<img src="images/OduncAl.png" alt="Anasayfa" width="500" height="400">
+<img src="images/OduncAl.png" alt="Ana sayfa" width="500" height="400">
 
 4)Kitap İade Et
 
 <img src="images/IadeEt.png" alt="Anasayfa" width="500" height="400">
 
-5)Kitap ekle
+5)Kitap Ekle
 
 <img src="images/kitapekle.png" alt="Anasayfa" width="500" height="400">
 
@@ -42,6 +42,6 @@ Projenin Diğer Menüleri
 
 <img src="images/ProfilBilgiler.png" alt="Anasayfa" width="500" height="400">
 
-7)Çıkış
+7)Çıkış Yap
 
 <img src="images/cikisyap.png" alt="Anasayfa" width="500" height="400">
