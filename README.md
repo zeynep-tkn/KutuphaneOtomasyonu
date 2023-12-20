@@ -6,34 +6,43 @@
 Eclipse-Java ile geliştirilmiştir. Arayüz JavaFX ile geliştirilmiştir. MVC mimari deseni kullanılmıştır. Veritabanı için metin dosyaları oluşturarak veri onlara aktarılmıştır.
 
 Kütüphane Asistanı içinden Görüntüler:
+
 1)Üye girişi 
 
-<img src="images/anasayfa.png" alt="Anasayfa" width="300" height="200">
+<img src="images/girisyap.png" alt="Anasayfa" width="300" height="200">
 
 
 
 2)Hemen Üye Ol(personel-normal)
-foto
+
+<img src="images/uyeol.png" alt="Anasayfa" width="300" height="200">
 
 Projenin Diğer Menüleri 
 
 1)Anasayfa 
-foto
+
+<img src="images/anasayfa.png" alt="Anasayfa" width="300" height="200">
 
 2)Kitaplar
-foto
+
+<img src="images/Kitaplar.png" alt="Anasayfa" width="300" height="200">
 
 3)Kitap Ödünç Al 
-foto
+
+<img src="images/oduncal.png" alt="Anasayfa" width="300" height="200">
 
 4)Kitap İade Et
-foto
+
+<img src="images/IadeEt.png" alt="Anasayfa" width="300" height="200">
 
 5)Kitap ekle
-foto
+
+<img src="images/kitapekle.png" alt="Anasayfa" width="300" height="200">
 
 6)Profil Bilgileri
-foto
+
+<img src="images/profilbilgiler.png" alt="Anasayfa" width="300" height="200">
 
 7)Çıkış
-foto
+
+<img src="images/cikisyap.png" alt="Anasayfa" width="300" height="200">
