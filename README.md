@@ -1,7 +1,6 @@
 # KutuphaneOtomasyonu
-## Java -Kütüphane Otomasyonu
-
-### Kullanılan Teknolojiler:
+## Java-Kütüphane Otomasyonu
+### KullanılanTeknolojiler:
 
 Eclipse-Java ile geliştirilmiştir. Arayüz JavaFX ile geliştirilmiştir. MVC mimari deseni kullanılmıştır. Veritabanı için metin dosyaları oluşturarak veri onlara aktarılmıştır.
 
