@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<SplitPane xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SignUpController">
+   <items>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #C2CFC3;">
+         <children>
+            <Button fx:id="girisYap" layoutX="599.0" layoutY="530.0" mnemonicParsing="false" onAction="#returnLogin" onMouseClicked="#returnLogin" prefHeight="29.0" prefWidth="181.0" style="-fx-background-color: #986054;" text="GİRİŞ EKRANINA DÖN" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <ImageView fx:id="exitImage" fitHeight="16.0" fitWidth="22.0" layoutX="770.0" layoutY="14.0" onMouseClicked="#logOutSample" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Pictures/270px-Multiplication_Sign.svg.png" />
+               </image>
+            </ImageView>
+            <Separator layoutX="294.0" layoutY="-4.0" orientation="VERTICAL" prefHeight="418.0" prefWidth="6.0" />
+            <Pane layoutY="-4.0" prefHeight="622.0" prefWidth="400.0" style="-fx-background-color: #424741;">
+               <children>
+                  <ImageView fitHeight="321.0" fitWidth="326.0" layoutX="37.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Pictures/WhatsApp%20Image%202023-12-19%20at%2013.22.35.jpeg" />
+                     </image>
+                  </ImageView>
+                  <Text fill="WHITE" layoutX="31.0" layoutY="442.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: italic;" text="RÜYA SAYFALAR KÜTÜPHANESİ" textAlignment="CENTER" wrappingWidth="331.6331348419189">
+                     <font>
+                        <Font name="Georgia Bold" size="39.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <Button fx:id="uyeOl" layoutX="534.0" layoutY="448.0" mnemonicParsing="false" onAction="#signupList" onMouseClicked="#signupList" prefHeight="43.0" prefWidth="150.0" style="-fx-background-color: #663B31;" text="ÜYE OL" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Button>
+            <TextField fx:id="kullaniciAdi" layoutX="513.0" layoutY="254.0" prefHeight="43.0" prefWidth="191.0" promptText="Kullanıcı Adı">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </TextField>
+            <PasswordField fx:id="sifre" layoutX="514.0" layoutY="327.0" prefHeight="43.0" prefWidth="190.0" promptText="Sifre">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </PasswordField>
+            <TextField fx:id="soyad" layoutX="513.0" layoutY="185.0" prefHeight="43.0" prefWidth="191.0" promptText="Soyad">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </TextField>
+            <RadioButton fx:id="personelButton" layoutX="520.0" layoutY="402.0" mnemonicParsing="false" onAction="#getUser" text="Personel" />
+            <RadioButton fx:id="standartButton" layoutX="612.0" layoutY="402.0" mnemonicParsing="false" onAction="#getUser" text="Normal" />
+            <TextField fx:id="ad" layoutX="513.0" layoutY="115.0" prefHeight="43.0" prefWidth="191.0" promptText="Ad">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </TextField>
+            <Text layoutX="517.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ad:">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="515.0" layoutY="176.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Soyad:">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="515.0" layoutY="247.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kullanıcı Adı:">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="519.0" layoutY="318.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Şifre:">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="517.0" layoutY="390.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kullanıcı Türü:">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="487.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="KULLANICI OLUŞTUR">
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </items>
+</SplitPane>

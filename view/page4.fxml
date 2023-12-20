@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<HBox alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="549.0" style="-fx-background-color: #C2CFC3;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.kitapEkleController">
+   <children>
+      <AnchorPane prefHeight="600.0" prefWidth="549.0">
+         <children>
+            <Text layoutX="216.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="KİTAP EKLE">
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Text>
+            <TextField fx:id="kitapAdi" layoutX="153.0" layoutY="98.0" prefHeight="35.0" prefWidth="243.0" promptText="Kitap Adı" />
+            <TextField fx:id="yazarAdi" layoutX="153.0" layoutY="162.0" prefHeight="35.0" prefWidth="243.0" promptText="Yazar Adı" />
+            <TextField fx:id="sayfaSayisi" layoutX="153.0" layoutY="228.0" prefHeight="35.0" prefWidth="243.0" promptText="Sayfa Sayısı" />
+            <TextField fx:id="personelAdi" layoutX="155.0" layoutY="355.0" prefHeight="35.0" prefWidth="243.0" promptText="Personel Kullanıcı Adı" />
+            <Button fx:id="kitapEkleButton" layoutX="216.0" layoutY="495.0" mnemonicParsing="false" onAction="#kitapEkle" onMouseClicked="#kitapEkle" prefHeight="35.0" prefWidth="121.0" style="-fx-background-color: #663B31;" text="Kitap Ekle" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Button>
+            <ComboBox fx:id="comboBox" layoutX="153.0" layoutY="289.0" onAction="#Select" prefHeight="36.0" prefWidth="243.0" promptText="Türü seçiniz" />
+            <Text layoutX="180.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="*Personel harici kitap ekleyemez">
+               <font>
+                  <Font name="Bell MT Bold" size="13.0" />
+               </font>
+            </Text>
+            <PasswordField fx:id="personelSifre" layoutX="154.0" layoutY="424.0" prefHeight="35.0" prefWidth="243.0" promptText="Personel Şİfre" />
+            <Text layoutX="158.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kitap Adı:">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="158.0" layoutY="154.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Yazar Adı:">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="157.0" layoutY="219.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sayfa Sayısı:">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="159.0" layoutY="281.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kitap Türü:">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="161.0" layoutY="348.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kullanıcı Adı:">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="161.0" layoutY="416.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kullanıcı Şifre:">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </children>
+</HBox>
+

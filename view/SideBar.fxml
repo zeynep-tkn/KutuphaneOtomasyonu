@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane fx:id="borderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #C2CFC3;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SideBarController">
+   <left>
+      <VBox prefHeight="600.0" prefWidth="231.0" style="-fx-background-color: #424741;" BorderPane.alignment="CENTER">
+         <children>
+            <BorderPane prefHeight="142.0" prefWidth="225.0">
+               <center>
+                  <Pane prefHeight="121.0" prefWidth="137.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <Text fill="WHITE" layoutX="176.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PROFİL" wrappingWidth="40.979828198750965">
+                           <font>
+                              <Font name="System Bold" size="11.0" />
+                           </font>
+                        </Text>
+                        <ImageView fx:id="backImage" fitHeight="32.0" fitWidth="36.0" layoutX="4.0" layoutY="3.0" onMouseClicked="#returnSample" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../Downloads/arrow.png" />
+                           </image>
+                        </ImageView>
+                        <AnchorPane layoutX="4.0" layoutY="103.0" prefHeight="38.0" prefWidth="224.0">
+                           <children>
+                              <Text fill="WHITE" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kullanıcı Adı:" wrappingWidth="113.14709240198135">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font>
+                              </Text>
+                              <Label fx:id="usernameLabel" layoutX="109.0" layoutY="7.0" text="KullncıA(label)" textFill="WHITE">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                        <Circle fill="#c2cfc3" layoutX="106.0" layoutY="57.0" radius="43.0" stroke="BLACK" strokeType="INSIDE" />
+                        <ImageView fitHeight="75.0" fitWidth="82.0" layoutX="69.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../Pictures/user-6318008_640.png" />
+                           </image>
+                           <effect>
+                              <ColorAdjust brightness="-0.06" contrast="0.05" hue="-0.09" saturation="-0.09" />
+                           </effect>
+                        </ImageView>
+                     </children>
+                  </Pane>
+               </center></BorderPane>
+            <Button mnemonicParsing="false" onMouseClicked="#anasayfa" prefHeight="65.0" prefWidth="230.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-width: 2px 0px 2px 0px;" text="ANASAYFA" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Button>
+            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onMouseClicked="#kitaplar" prefHeight="65.0" prefWidth="230.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" text="KİTAPLAR" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Button>
+            <Button layoutX="10.0" layoutY="64.0" mnemonicParsing="false" onMouseClicked="#kitapOduncAl" prefHeight="65.0" prefWidth="230.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" text="KİTAP ÖDÜNÇ AL" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Button>
+            <Button layoutX="10.0" layoutY="118.0" mnemonicParsing="false" onMouseClicked="#kitapIadeEt" prefHeight="65.0" prefWidth="230.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" text="KİTAP İADE ET" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Button>
+            <Button layoutX="10.0" layoutY="172.0" mnemonicParsing="false" onMouseClicked="#kitapEkle" prefHeight="65.0" prefWidth="235.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" text="KİTAP EKLE" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Button>
+            <Button layoutX="10.0" layoutY="226.0" mnemonicParsing="false" onMouseClicked="#kutuphaneBilgileri" prefHeight="65.0" prefWidth="239.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" text="PROFİL BİLGİLERİ" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Button>
+            <Button layoutX="10.0" layoutY="280.0" mnemonicParsing="false" onMouseClicked="#cikis" prefHeight="65.0" prefWidth="243.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" text="ÇIKIŞ" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+   </left>
+   <center>
+      <AnchorPane fx:id="anchorPane" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text fill="#424741" layoutX="70.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="KÜTÜPHANEMİZE HOŞ GELDİN " textAlignment="CENTER" wrappingWidth="243.8203125">
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+            </Text>
+            <Text layoutX="23.0" layoutY="433.0" strokeMiterLimit="500.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bu büyülü kütüphane, siz değerli okura; sayfalar arasında kaybolmanın, bilgiyle dans etmenin ve kitapların sihirli dünyasına adım atmanın eşsiz güzelliğini tatmayı sağlar. Her bir kitap, okuyucusunu başka bir dünyaya taşırken, her sayfa bir rüyaya dönüşür. Bu kütüphane, her bir sayfanın ardında bir sürpriz, her bir raflarda bir macera saklar." textAlignment="CENTER" wrappingWidth="521.4700021743774">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="138.0" fitWidth="166.0" layoutX="373.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Downloads/books.png" />
+               </image>
+            </ImageView>
+            <AnchorPane layoutX="103.0" layoutY="287.0" prefHeight="101.0" prefWidth="362.0" style="-fx-background-color: #424741; -fx-border-width: 4px 4px 4px 4px; -fx-border-color: white;">
+               <children>
+                  <Text fill="#f2ecec" layoutX="43.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kitap Sayısı" wrappingWidth="109.29620361328125">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                  </Text>
+                  <Label fx:id="labelKitapSayisi" layoutX="76.0" layoutY="6.0" prefHeight="43.0" prefWidth="37.0" text="85" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="27.0" />
+                     </font>
+                  </Label>
+                  <Text fill="WHITE" layoutX="236.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Üye Sayısı">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                  </Text>
+                  <Label fx:id="labelUyeSayisi" layoutX="266.0" layoutY="6.0" prefHeight="45.0" prefWidth="33.0" text="20" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="27.0" />
+                     </font>
+                  </Label>
+                  <Separator layoutX="187.0" layoutY="7.0" orientation="VERTICAL" prefHeight="85.0" prefWidth="11.0" />
+               </children>
+            </AnchorPane>
+            <Text fill="#424741" layoutX="154.0" layoutY="254.0" strokeType="OUTSIDE" strokeWidth="0.0" text="KÜTÜPHANE HAKKINDA">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+            <Label fx:id="adLabel" layoutX="147.0" layoutY="130.0" prefHeight="40.0" prefWidth="167.0" text="Label" textAlignment="CENTER" textFill="#424741">
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

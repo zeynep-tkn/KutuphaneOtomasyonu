@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<HBox alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="550.0" style="-fx-background-color: #C2CFC3;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CikisController">
+   <children>
+      <AnchorPane prefHeight="600.0" prefWidth="550.0">
+         <children>
+            <Text layoutX="173.0" layoutY="177.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PROFİL BİLGİLERİ">
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="72.0" fitWidth="78.0" layoutX="229.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Downloads/user.png" />
+               </image>
+               <effect>
+                  <ColorAdjust brightness="-0.06" contrast="0.05" hue="-0.09" saturation="-0.09" />
+               </effect>
+            </ImageView>
+            <Text layoutX="146.0" layoutY="338.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kullanıcı Adı:">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Text>
+            <Text layoutX="146.0" layoutY="474.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ödünç Aldığın Kitaplar:">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Text>
+            <Text layoutX="146.0" layoutY="383.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kullanıcı Türü:">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Text>
+            <Label fx:id="adLabel" layoutX="333.0" layoutY="221.0" text="Label">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Label fx:id="soyadLabel" layoutX="334.0" layoutY="268.0" text="Label">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Label fx:id="kullaniciAdiLabel" layoutX="333.0" layoutY="313.0" text="Label">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Label fx:id="kullaniciTuruLabel" layoutX="333.0" layoutY="358.0" text="Label">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Text layoutX="146.0" layoutY="430.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Şifre:">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Text>
+            <Label fx:id="sifreLabel" layoutX="334.0" layoutY="400.0" text="Label">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Label fx:id="oduncKitapLabel" layoutX="335.0" layoutY="453.0" text="Label">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Text layoutX="150.0" layoutY="286.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Soyad:">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Text>
+            <Text layoutX="150.0" layoutY="239.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ad:">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Text>
+            <Text layoutX="400.0" layoutY="541.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ÜYELİK SİL">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </children>
+</HBox>

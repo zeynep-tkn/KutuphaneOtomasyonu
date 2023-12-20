@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<HBox alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="549.0" style="-fx-background-color: #C2CFC3;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CikisController">
+   <children>
+      <AnchorPane prefHeight="600.0" prefWidth="426.0">
+         <children>
+            <AnchorPane layoutX="61.0" layoutY="185.0" prefHeight="185.0" prefWidth="314.0" style="-fx-background-color: white; -fx-border-color: #424741; -fx-border-width: 6px 6px 6px 6px;">
+               <children>
+                  <Text layoutX="87.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EMİN MİSİNİZ?" wrappingWidth="173.9824676513672">
+                     <font>
+                        <Font name="System Bold" size="23.0" />
+                     </font>
+                  </Text>
+                  <Button fx:id="exitButton" layoutX="110.0" layoutY="103.0" mnemonicParsing="false" onAction="#logOut" prefHeight="36.0" prefWidth="105.0" style="-fx-background-color: #663B31;" text="Çıkış Yap" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</HBox>
