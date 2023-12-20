@@ -21,28 +21,28 @@ Projenin Diğer Menüleri
 
 1)Anasayfa 
 
-<img src="images/anasayfa.png" alt="Anasayfa" width="400" height="300">
+<img src="images/anasayfa.png" alt="Anasayfa" width="500" height="400">
 
 2)Kitaplar
 
-<img src="images/Kitaplar.png" alt="Anasayfa" width="300" height="200">
+<img src="images/Kitaplar.png" alt="Anasayfa" width="500" height="400">
 
 3)Kitap Ödünç Al 
 
-<img src="images/OduncAl.png" alt="Anasayfa" width="300" height="200">
+<img src="images/OduncAl.png" alt="Anasayfa" width="500" height="400">
 
 4)Kitap İade Et
 
-<img src="images/IadeEt.png" alt="Anasayfa" width="300" height="200">
+<img src="images/IadeEt.png" alt="Anasayfa" width="500" height="400">
 
 5)Kitap ekle
 
-<img src="images/kitapekle.png" alt="Anasayfa" width="300" height="200">
+<img src="images/kitapekle.png" alt="Anasayfa" width="500" height="400">
 
 6)Profil Bilgileri
 
-<img src="images/ProfilBilgiler.png" alt="Anasayfa" width="300" height="200">
+<img src="images/ProfilBilgiler.png" alt="Anasayfa" width="500" height="400">
 
 7)Çıkış
 
-<img src="images/cikisyap.png" alt="Anasayfa" width="300" height="200">
+<img src="images/cikisyap.png" alt="Anasayfa" width="500" height="400">
