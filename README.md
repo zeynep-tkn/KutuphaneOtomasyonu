@@ -9,19 +9,19 @@ Kütüphane Asistanı içinden Görüntüler:
 
 1)Üye girişi 
 
-<img src="images/girisyap.png" alt="Anasayfa" width="300" height="200">
+<img src="images/girisyap.png" alt="Anasayfa" width="500" height="400">
 
 
 
 2)Hemen Üye Ol(personel-normal)
 
-<img src="images/uyeol.png" alt="Anasayfa" width="300" height="200">
+<img src="images/uyeol.png" alt="Anasayfa" width="500" height="400">
 
 Projenin Diğer Menüleri 
 
 1)Anasayfa 
 
-<img src="images/anasayfa.png" alt="Anasayfa" width="300" height="200">
+<img src="images/anasayfa.png" alt="Anasayfa" width="400" height="300">
 
 2)Kitaplar
 
@@ -29,7 +29,7 @@ Projenin Diğer Menüleri
 
 3)Kitap Ödünç Al 
 
-<img src="images/oduncal.png" alt="Anasayfa" width="300" height="200">
+<img src="images/OduncAl.png" alt="Anasayfa" width="300" height="200">
 
 4)Kitap İade Et
 
@@ -41,7 +41,7 @@ Projenin Diğer Menüleri
 
 6)Profil Bilgileri
 
-<img src="images/profilbilgiler.png" alt="Anasayfa" width="300" height="200">
+<img src="images/ProfilBilgiler.png" alt="Anasayfa" width="300" height="200">
 
 7)Çıkış
 
