@@ -28,7 +28,7 @@ Projenin Diğer Menüleri
 
 3)Kitap Ödünç Al 
 
-<img src="images/OduncAl.png" alt="Ana sayfa" width="500" height="400">
+<img src="images/Oduncal.png" alt="Ana sayfa" width="500" height="400">
 
 4)Kitap İade Et
 
