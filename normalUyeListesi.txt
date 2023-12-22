@@ -1,4 +1,0 @@
-NORMAL ÜYE LİSTESİ
-
-----------------------
-1-Ad: zeynep |Soyad: t |Kullanıcı Adı: zey12 |Şifre: 123 |Kullanıcı Türü: standart |
