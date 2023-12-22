@@ -1,0 +1,38 @@
+ÖDÜNÇ ALINAN KİTAPLAR LİSTESİ
+
+----------------------
+1-Kullanıcı Adı: zey | Kitap Adı: huzur
+
+----------------------
+1-Kullanıcı Adı: zeytek | Kitap Adı: araba sevdası
+
+----------------------
+1-Kullanıcı Adı: zeytek | Kitap Adı: eylül
+
+----------------------
+1-Kullanıcı Adı: zeytek | Kitap Adı: Beyaz Diş
+
+----------------------
+1-Kullanıcı Adı: zeytek | Kitap Adı: İki Şehrin Hikayesi
+
+----------------------
+1-Kullanıcı Adı: tekzey | Kitap Adı: aklından bir sayı tut
+
+----------------------
+1-Kullanıcı Adı: zeytek | Kitap Adı: çalıkuşu
+
+----------------------
+1-Kullanıcı Adı: zeynep123 | Kitap Adı: Eylül
+
+----------------------
+1-Kullanıcı Adı: zeynep123 | Kitap Adı: Çalıkuşu
+
+----------------------
+1-Kullanıcı Adı: tknzeynep | Kitap Adı: Çalıkuşu
+
+----------------------
+1-Kullanıcı Adı: tknzeynep | Kitap Adı: Yaban
+
+----------------------
+1-Kullanıcı Adı: zeytek | Kitap Adı: kar
+
